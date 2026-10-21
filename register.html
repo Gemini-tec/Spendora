@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page - Spendora</title>
+
+
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+<body>
+
+    <a href="index.html">Home</a>
+    
+
+    <form action="" >
+
+        <legend>Join Us and Start Your Journey Today!!</legend>
+        <br>
+
+        <label for="fullname">Full Name: </label>
+        <input type="text" placeholder=" e.g. John Kamadi" id="fullname" required>
+        <br><br>
+
+        <label for="email">Email Address: </label>
+        <input type="email" placeholder="e.g.johndoe@test.com" id="email" required>
+        <br><br>
+
+        <label for="pwd">Password: </label>
+        <input type="password" placeholder="Enter Your Password" id="pwd" required>
+        <br><br>
+
+        <label for="yob">Birthday: </label>
+        <input type="date" id="yob" required>
+        <br><br>
+
+        <label for="dt">Date and Time: </label>
+        <input type="datetime-local" id="dt" required>
+        <br><br>
+
+        <label for="phone">Contact: </label>
+        <input type="tel" id="phone" placeholder="e.g 25470202321" required>
+        <br><br>
+
+        <label for="file">Upload File: </label>
+        <input type="file" id="file" required>
+        <br><br>
+
+        
+
+        <!---Dropdown-->
+        <label for="cars">Choose a car: </label>
+        <select name="cars" id="cars" required>
+            <option value="subaru">Subaru</option>
+            <option value="escalade">Escalade</option>
+            <option value="maybach">Maybach</option>
+            <option value="Bugatti">Bugatti</option>
+            <option value="lambohrgini">lambohrgini</option>
+
+        </select>
+
+
+        <!---Radio Button-->
+        <p>Select your favourite programming language</p>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+
+        <input type="radio" id="c++" name="fav_language" value="C++">
+        <label for="c++">C++</label>
+        <br>
+
+        <input type="radio" id="java" name="fav_language" value="JAVA">
+        <label for="java">JAVA</label>
+        <br>
+
+        <!---CheckBox-->
+        <p>Select your Gender:</p>
+        <label for="male">Male</label>
+        <input type="checkbox" id="male" name="gender" value="Male">
+        <br>
+
+        <label for="female">Female</label>
+        <input type="checkbox" id="female" name="gender" value="Female">
+        <br>
+
+        <!---Textarea-->
+
+        <label for="comments">Your Feedback:</label><br>
+        <textarea 
+        id="comments" 
+        name="user_feedback" 
+        rows="4" 
+        cols="50" 
+        placeholder="Type your comments or suggestions here...">
+        </textarea>
+
+
+        <button>Register</button>
+        
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
